@@ -16,5 +16,6 @@ if __name__ == "__main__":
     ]
 
     # Speak each phrase continuously in a loop
-    for phrase in phrases:
-        speak(phrase)
+    while True:
+        for phrase in phrases:
+            speak(phrase)
